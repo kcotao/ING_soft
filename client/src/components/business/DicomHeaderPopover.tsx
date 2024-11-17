@@ -128,7 +128,7 @@ function DicomHeaderPopover() {
             <Table variant="unstyled" size="sm">
               <Tbody>
                 {finalData.map((line, index) => (
-                  <Tr key={index}>
+                  <Tr key={}>
                     <Td>
                       <Text>{line.key}</Text>
                     </Td>
